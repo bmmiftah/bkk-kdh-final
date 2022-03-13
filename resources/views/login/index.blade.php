@@ -59,8 +59,8 @@
     </form>
     
     <div class="text-center py-3">
-          <small class="text-center text-muted">Copyright © 2021 Bagus Miftah Nur Haqqi</small>
-      </div>
+      <small style="margin: 0">Copyright © 2021-<?=date('Y')?> Bagus Miftah Nur Haqqi</small>
+    </div>
 
     </div>
   </div>
