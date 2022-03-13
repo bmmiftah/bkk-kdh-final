@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      .navbar-1-1 {
+        background-color: #273c75;
+      }
+      .navbar-1-1.navbar-light .navbar-nav .nav-link {
+        color: #092a33;
+        transition: 0.3s;
+      }
+
+      .navbar-1-1.navbar-light .navbar-nav .nav-link.active {
+        font-weight: 500;
+      }
+
+      .navbar-1-1 .btn-login {
+        border-radius: 8px;
+        padding: 7px 40px;
+        font-weight: 500;
+      }
+
+      .navbar-1-1 .btn-login {
+        background: #f0ff6d;
+        transition: 0.3s;
+      }
+
+      .navbar-1-1 .btn-login:hover {
+        background: #EBEEFF;
+        transition: 0.3s;
+      }

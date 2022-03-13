@@ -1,0 +1,207 @@
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+* {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+body {
+  background: #F8F9FB;
+}
+
+body .header {
+  background: #273c75;
+}
+
+@media screen and (min-width: 768px) {
+  body .header nav {
+    padding-top: 30px;
+  }
+}
+
+body .header nav .navbar-brand {
+  font-family: Montserrat;
+  font-style: semi-bold;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: red;
+}
+
+body .header nav .navigation li {
+  margin-right: 16px;
+}
+
+body .header nav .navigation a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff !important;
+}
+
+body .header nav .signup {
+  width: 113px;
+  background: #ffffff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #08090d !important;
+}
+
+@media screen and (max-width: 768px) {
+  body .header nav .signup {
+    width: 100% !important;
+  }
+}
+
+body .header .content {
+  padding-top: 90px;
+}
+
+body .header .content .headline {
+  font-family: Montserrat !important;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 67px;
+  color: #ffffff;
+}
+
+body .header .content .subheadline {
+  font-family: Montserrat !important;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+body .header .content .button-header {
+  margin-top: 50px;
+}
+
+body .header .content .button-header .btn-listing:hover{
+  background: #EBEEFF;
+}
+
+body .header .content .button-header .btn-listing {
+  width: 180px;
+  height: 50px;
+  background: #f0ff6d;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #101010;
+}
+
+body .header .img-brand {
+  padding-top: 50;
+  padding-bottom: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  body .header .img-brand {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  body .header .img-brand .mr-60 {
+    margin-right: 60px;
+  }
+}
+
+/* lalalalalalalal */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      .content-3-2 .btn:focus,
+      .content-3-2 .btn:active {
+        outline: none !important;
+      }
+
+      .content-3-2 {
+        padding: 5rem 2rem;
+      }
+
+      .content-3-2 .img-hero {
+        width: 100%;
+        margin-bottom: 3rem;
+      }
+
+      .content-3-2 .right-column {
+        width: 100%;
+      }
+
+      .content-3-2 .title-text {
+        font: 600 1.875rem/2.25rem Poppins, sans-serif;
+        font-size: 20px;
+        margin-bottom: 2.5rem;
+        letter-spacing: -0.025em;
+        color: #121212;
+      }
+
+      .content-3-2 .title-caption {
+        font: 500 1.5rem/2rem Poppins, sans-serif;
+        margin-bottom: 1.25rem;
+        color: #121212;
+      }
+
+      .content-3-2 .circle {
+        font: 500 1.25rem/1.75rem Poppins, sans-serif;
+        height: 3rem;
+        width: 3rem;
+        margin-bottom: 1.25rem;
+        border-radius: 9999px;
+        background-color: #273c75;
+      }
+
+      .content-3-2 .text-caption {
+        font: 400 1rem/1.75rem Poppins, sans-serif;
+        letter-spacing: 0.025em;
+        color: #565656;
+      }
+
+      .content-3-2 .btn-learn {
+        font: 600 1rem/1.5rem Poppins, sans-serif;
+        padding: 1rem 2.5rem;
+        background-color: #27c499;
+        transition: 0.3s;
+        letter-spacing: 0.025em;
+        border-radius: 0.75rem;
+      }
+
+      .content-3-2 .btn:hover {
+        background-color: #45dbb2;
+        transition: 0.3s;
+      }
+
+      @media (min-width: 768px) {
+        .content-3-2 .title-text {
+          font: 600 2.25rem/2.5rem Poppins, sans-serif;
+        }
+      }
+
+      @media (min-width: 992px) {
+        .content-3-2 .img-hero {
+          width: 50%;
+          margin-bottom: 0;
+        }
+
+        .content-3-2 .right-column {
+          width: 50%;
+        }
+
+        .content-3-2 .circle {
+          margin-right: 1.25rem;
+          margin-bottom: 0;
+        }
+      }
+
