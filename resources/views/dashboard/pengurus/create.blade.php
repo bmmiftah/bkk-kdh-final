@@ -2,7 +2,7 @@
 
 @section('container')
 
-<div class="justify-content-center">
+
 
     <!-- Basic Card Example -->
     <div class="card shadow mb-4">

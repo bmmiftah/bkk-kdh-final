@@ -94,7 +94,7 @@ class PendaftaranController extends Controller
         $tes=Pendaftaran::where('lowongan_id', $validateData['lowongan_id'])->get();
         foreach ($tes as $tess) {
             if ($tess['user_id']==$validateData['user_id']) {
-                return redirect('/profil')->with('success', 'Pendaftaran Gagal! Anda Sudah terdaftar.');
+                return redirect('/profil')->with('danger', 'Pendaftaran Gagal! Anda Sudah terdaftar.');
             }
         }
 
@@ -105,7 +105,7 @@ class PendaftaranController extends Controller
             Pendaftaran::create($validateData);
             return redirect('/profil')->with('success', 'Pendaftaran Berhasil!');
         } else{
-            return redirect('/profil')->with('success', 'Pendaftaran Gagal! Lowwongan sudah ditutup.');
+            return redirect('/profil')->with('danger', 'Pendaftaran Gagal! Lowongan sudah ditutup.');
         }
 
 
